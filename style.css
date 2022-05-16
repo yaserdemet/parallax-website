@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+     font-family: "Lato", sans-serif;
+}
+
+.parallax {
+    opacity: 0.7;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* bu classı ortak başlıklara vereceğim */
+.heading {
+    width: 35%;
+    color: white;
+    background-color: #353535;
+    font-size: 48px;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 10px purple inset;
+    outline-offset: 12px;
+    
+}
+
+.image1 {
+    background-image: url(./img/bg.jpg);
+    width: 100%;
+}
+
+/* paragraflar için kullanacagım class */
+.baslık {
+
+    height: 15rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2rem;
+    color: #353535;
+    padding-top: 2rem;
+    font: 1rem , "Lato", sans-serif;
+    font-weight: bold;
+    
+}
+
+.image2 {
+    background-color: rgb(241, 241, 241);
+    padding-bottom: 3rem;
+}
+
+.image3 {
+    background-image: url(./img/bg2.jpg);
+}
+
+.baslıkaws {
+    height: 18rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    line-height: 2rem;
+    color: #ddd;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding-top: 1.5rem;
+    
+}
+
+.darkbaslık {
+    background-color: #282e34;
+}
+
+.image4 {
+    background-image: url(./img/bg3.jpg);
+}
+
+.heading1 {
+    width:65%;
+    color: white;
+    background-color: #000000;
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+    padding: 1.5rem;
+    text-align: center;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    outline: 1rem purple inset;
+    outline-offset: 1rem;
+    font-weight: 900;
+}
+
+.image5 {
+    background-image: url(./img/bg4.jpg);
+}
+.heading2{
+    width: 40%;
+}
